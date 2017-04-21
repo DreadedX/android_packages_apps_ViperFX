@@ -6,7 +6,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_TAG := optional
 LOCAL_MODULE_PATH := system/lib/soundfx
-LOCAL_SRC_FILE := libv4a_fx_jb_NEON.sp
+LOCAL_SRC_FILE := libv4a_fx_jb_NEON.so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
